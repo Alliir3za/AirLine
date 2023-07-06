@@ -10,8 +10,4 @@
     <ProjectReference Include="..\AirLine.Application\AirLine.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="SmsProvider\" />
-  </ItemGroup>
-
 </Project>
