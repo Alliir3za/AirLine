@@ -1,6 +1,9 @@
-﻿namespace AirLine.Domain.Entities;
+﻿using AirLine.Domain.Common.Interface;
+using AirLine.Domain.Enum;
 
-public class User
+namespace AirLine.Domain.Entities;
+
+public class User : IEntity
 {
     public User() => UserId = Guid.NewGuid();
 
@@ -9,5 +12,6 @@ public class User
     public string LastName { get; set; }
     public byte Age { get; set; }
     public string Email { get; set; }
+    public Gender Gender { get; set; }
     public string PhoneNumber { get; set; }
 }
