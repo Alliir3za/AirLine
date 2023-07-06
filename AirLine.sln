@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirLine.Domain", "AirLine\AirLine.Domain.csproj", "{69FDD061-5885-4CAA-90E9-DF9EF1EDD478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirLine.Domain", "AirLine\AirLine.Domain.csproj", "{69FDD061-5885-4CAA-90E9-DF9EF1EDD478}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Shared", "0.Shared", "{7C932BFF-C17C-4667-8EF5-97629967989E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Core", "1.Core", "{F797EAEA-3AE0-4AAA-88E9-7057B0019D0C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Data", "1.Data", "{F797EAEA-3AE0-4AAA-88E9-7057B0019D0C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Infrastructure", "2.Infrastructure", "{D1BF3809-5748-42D0-8D34-0166522A479F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Services", "3.Services", "{D1BF3809-5748-42D0-8D34-0166522A479F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Presentation", "3.Presentation", "{80E2AEE0-2F72-4051-B597-DD3B7936DCF1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.EndPoint", "4.EndPoint", "{80E2AEE0-2F72-4051-B597-DD3B7936DCF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirLine.Application", "AirLine.Application\AirLine.Application.csproj", "{82728266-7391-4E43-9F26-80CEF6340427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirLine.Infrastructure", "AirLine.Infrastructure\AirLine.Infrastructure.csproj", "{C5792665-D41D-4D31-B59B-A452D003E1E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirLine.Infrastructure.Persistence", "AirLine.Infrastructure.Persistence\AirLine.Infrastructure.Persistence.csproj", "{A19C5C36-7565-484B-BA3B-ABD48B73A003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirLine.Presentation", "AirLine.Presentation\AirLine.Presentation.csproj", "{F8D1CCAD-EAC4-4F96-AA0C-FC00D12F086B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +29,32 @@ Global
 		{69FDD061-5885-4CAA-90E9-DF9EF1EDD478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69FDD061-5885-4CAA-90E9-DF9EF1EDD478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69FDD061-5885-4CAA-90E9-DF9EF1EDD478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82728266-7391-4E43-9F26-80CEF6340427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82728266-7391-4E43-9F26-80CEF6340427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82728266-7391-4E43-9F26-80CEF6340427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82728266-7391-4E43-9F26-80CEF6340427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5792665-D41D-4D31-B59B-A452D003E1E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5792665-D41D-4D31-B59B-A452D003E1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5792665-D41D-4D31-B59B-A452D003E1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5792665-D41D-4D31-B59B-A452D003E1E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19C5C36-7565-484B-BA3B-ABD48B73A003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19C5C36-7565-484B-BA3B-ABD48B73A003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19C5C36-7565-484B-BA3B-ABD48B73A003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19C5C36-7565-484B-BA3B-ABD48B73A003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D1CCAD-EAC4-4F96-AA0C-FC00D12F086B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D1CCAD-EAC4-4F96-AA0C-FC00D12F086B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D1CCAD-EAC4-4F96-AA0C-FC00D12F086B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D1CCAD-EAC4-4F96-AA0C-FC00D12F086B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{69FDD061-5885-4CAA-90E9-DF9EF1EDD478} = {F797EAEA-3AE0-4AAA-88E9-7057B0019D0C}
+		{82728266-7391-4E43-9F26-80CEF6340427} = {F797EAEA-3AE0-4AAA-88E9-7057B0019D0C}
+		{C5792665-D41D-4D31-B59B-A452D003E1E5} = {D1BF3809-5748-42D0-8D34-0166522A479F}
+		{A19C5C36-7565-484B-BA3B-ABD48B73A003} = {D1BF3809-5748-42D0-8D34-0166522A479F}
+		{F8D1CCAD-EAC4-4F96-AA0C-FC00D12F086B} = {80E2AEE0-2F72-4051-B597-DD3B7936DCF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F4D95AB-D219-4D9C-92E0-C38E6BB5B494}
