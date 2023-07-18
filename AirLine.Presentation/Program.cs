@@ -2,6 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+//builder.Services.AddMediator(typeof(Program));
 
 var app = builder.Build();
 

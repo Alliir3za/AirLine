@@ -7,13 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AirLine.Application\AirLine.Application.csproj" />
-    <ProjectReference Include="..\AirLine.Infrastructure.Persistence\AirLine.Infrastructure.Persistence.csproj" />
-    <ProjectReference Include="..\AirLine.Infrastructure\AirLine.Infrastructure.csproj" />
+    <PackageReference Include="MassTransit" Version="8.0.16" />
+    <PackageReference Include="MediatR" Version="12.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controller\" />
+    <ProjectReference Include="..\AirLine.Application\AirLine.Application.csproj" />
+    <ProjectReference Include="..\AirLine.Infrastructure.Persistence\AirLine.Infrastructure.Persistence.csproj" />
+    <ProjectReference Include="..\AirLine.Infrastructure\AirLine.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

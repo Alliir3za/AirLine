@@ -6,7 +6,7 @@ namespace AirLine.Infrastructure.Persistence.Implementation;
 
 public class GenericRepo<TEntity> : IGenericRepo<TEntity> where TEntity : class, IEntity
 {
-    private AirLineDbContext _entity;
+    private readonly AirLineDbContext _entity;
 
     public GenericRepo(AirLineDbContext dbContext)
     => _entity = dbContext;
