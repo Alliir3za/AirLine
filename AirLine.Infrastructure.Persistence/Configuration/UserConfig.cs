@@ -1,8 +1,4 @@
-﻿using AirLine.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace AirLine.Infrastructure.Persistence.Configuration;
+﻿namespace AirLine.Infrastructure.Persistence.Configuration;
 
 public class UserConfig : IEntityTypeConfiguration<User>
 {

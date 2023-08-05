@@ -10,9 +10,11 @@ public class Ticket : IEntity
     public User User { get; set; }
     public Guid UserId { get; set; }
 
+    public string From { get; set; }
+    public string Destinations { get; set; }
+    public int Price { get; set; }
     public bool HasDelay { get; set; } = false;
     public bool IsCanceled { get; set; }
-    public int Price { get; set; }
     public DateTime BuyTicket { get; set; }
     public DateTime FlightDate { get; set; }
     public DateTime LandTime { get; set; }

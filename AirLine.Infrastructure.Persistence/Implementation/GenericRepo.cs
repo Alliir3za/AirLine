@@ -1,8 +1,4 @@
-﻿using AirLine.Application.Interfaces.Repository;
-using AirLine.Domain.Common.Interface;
-using AirLine.Infrastructure.Persistence.AirLDbContext;
-
-namespace AirLine.Infrastructure.Persistence.Implementation;
+﻿namespace AirLine.Infrastructure.Persistence.Implementation;
 
 public class GenericRepo<TEntity> : IGenericRepo<TEntity> where TEntity : class, IEntity
 {

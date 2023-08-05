@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace AirLine.Infrastructure.Persistence.AirLDbContext;
+﻿namespace AirLine.Infrastructure.Persistence.AirLDbContext;
 
 public class AirLineDbContext : DbContext
 {

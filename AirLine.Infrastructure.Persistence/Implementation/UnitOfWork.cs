@@ -1,11 +1,4 @@
-﻿using AirLine.Application.Common;
-using AirLine.Application.Interfaces.Repository;
-using AirLine.Domain.Entities;
-using AirLine.Infrastructure.Persistence.AirLDbContext;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-using Microsoft.EntityFrameworkCore.Infrastructure;
-
-namespace AirLine.Infrastructure.Persistence.Implementation;
+﻿namespace AirLine.Infrastructure.Persistence.Implementation;
 
 public class UnitOfWork : IUnitOfWork
 {
