@@ -13,4 +13,9 @@ public class AirLineDbContext : DbContext
     {
         optionsBuilder.UseSqlServer("server=.;database=AirL;trusted_connection=true;");
     }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+    }
 }

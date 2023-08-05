@@ -14,4 +14,6 @@ public class User : IEntity
     public string Email { get; set; }
     public Gender Gender { get; set; }
     public string PhoneNumber { get; set; }
+
+    public ICollection<Ticket> Tickets { get; set; }
 }
