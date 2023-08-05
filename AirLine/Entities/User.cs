@@ -1,7 +1,4 @@
-﻿using AirLine.Domain.Common.Interface;
-using AirLine.Domain.Enum;
-
-namespace AirLine.Domain.Entities;
+﻿namespace AirLine.Domain.Entities;
 
 public class User : IEntity
 {

@@ -13,9 +13,9 @@ public class UserController : ControllerBase
     }
 
 
-    [HttpGet]
-    public  async Task<IActionResult> GetUsers()
-    {
+    //[HttpGet]
+    //public  async Task<IActionResult> GetUsers()
+    //{
 
-    }
+    //}
 }
