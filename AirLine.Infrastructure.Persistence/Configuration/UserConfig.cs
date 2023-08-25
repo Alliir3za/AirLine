@@ -19,8 +19,8 @@ public class UserConfig : IEntityTypeConfiguration<User>
             .IsRequired();
 
         builder.Property(x => x.PhoneNumber)
-            .HasMaxLength(11).
-            IsRequired();
+            .HasMaxLength(11)
+             .IsRequired();
 
         builder.Property(u => u.Age)
               .IsRequired();

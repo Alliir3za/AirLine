@@ -1,6 +1,5 @@
 ﻿using MassTransit.Mediator;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 
 namespace AirLine.Presentation.Controller;
 public class UserController : ControllerBase
@@ -9,12 +8,12 @@ public class UserController : ControllerBase
 
     public UserController(IMediator mediator)
     {
-        _mediator = mediator; 
+        _mediator = mediator;
     }
 
 
     //[HttpGet]
-    //public  async Task<IActionResult> GetUsers()
+    //public async Task<IActionResult> GetUsers()
     //{
 
     //}
